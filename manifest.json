@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "SE JIRA Task Extractor",
+  "version": "1.0.0",
+  "description": "Extracts task IDs and time entries from SE JIRA Tempo timesheet",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://jira.se.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://jira.se.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["tailwind.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "_locales": {
+    "pl": {
+      "name": {
+        "message": "SE JIRA Tempo Task Extractor"
+      },
+      "description": {
+        "message": "Wyciąga identyfikatory zadań z SE JIRA Tempo timesheet"
+      }
+    }
+  }
+}

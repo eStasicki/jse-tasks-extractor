@@ -1,0 +1,151 @@
+/* Podstawowe style */
+.w-\[300px\] {
+  width: 300px;
+}
+.p-4 {
+  padding: 1rem;
+}
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+.from-indigo-50 {
+  --tw-gradient-from: #eef2ff;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgb(238 242 255 / 0));
+}
+.to-purple-50 {
+  --tw-gradient-to: #faf5ff;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* Style dla selecta */
+.w-full {
+  width: 100%;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-indigo-200 {
+  border-color: #c7d2fe;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.transition-colors {
+  transition-property: color, background-color, border-color;
+  transition-duration: 150ms;
+}
+.hover\:border-indigo-400:hover {
+  border-color: #818cf8;
+}
+
+/* Style dla zadań */
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-indigo-100 {
+  border-color: #e0e7ff;
+}
+.text-indigo-900 {
+  color: #312e81;
+}
+.text-indigo-600 {
+  color: #4f46e5;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+
+/* Style dla przycisków */
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.hover\:bg-gray-100:hover {
+  background-color: #f3f4f6;
+}
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+.text-blue-500 {
+  color: #3b82f6;
+}
+
+/* Style dla podsumowania */
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
+}
+.border-t-2 {
+  border-top-width: 2px;
+}
+.border-gray-200 {
+  border-color: #e5e7eb;
+}
+
+/* Style dla listy ID */
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.font-mono {
+  font-family: ui-monospace, monospace;
+}
+.break-words {
+  word-wrap: break-word;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
